@@ -1,0 +1,35 @@
+{
+    "name": "Smart Node Design",
+    "short_name": "Smart Node Design",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#009688",
+    "theme_color": "#009688",
+    "description": "",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/ic_square_192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/ic_square_512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/ic_square_192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/ic_square_512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

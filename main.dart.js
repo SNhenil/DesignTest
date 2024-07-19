@@ -121520,19 +121520,25 @@ $S:0}
 A.tC.prototype={
 N(a){return A.cq(new A.alp(this),t.Y)}}
 A.alp.prototype={
-$1(a){var s,r,q=null,p="assets/images/usb_b.png",o="assets/images/lan-black.png",n="assets/images/external_1M.png",m=a.aS
-if(J.c(m.gh(0),"Wood")||J.c(m.gh(0),"Marble"))s=B.Q
-else{m=a.a0
-s=J.c(m.gh(0),"Black")||J.c(m.gh(0),"Sparkling Blue")||J.c(m.gh(0),"Golden Grey")?B.L:B.ax}r=J.c(a.a0.gh(0),"Black")?"assets/images/c_black.png":"assets/images/c_white.png"
-if(a.pA()){m=this.a.c
-if(m==="USB"){m=a.bf()?A.co(3.141592653589793):A.co(0)
-m=A.cp(B.N,A.Q(p,q,93,46),q,m,!0)}else if(m==="LAN"){m=a.bf()?A.co(3.141592653589793):A.co(0)
-m=A.cp(B.N,A.Q(o,q,93,46),q,m,!0)}else m=m==="TYPE-C"?A.Q(r,q,93,46):A.Q(n,s,93,46)
-m=new A.aQ(1,A.K(m,93,46),q)}else{m=this.a.c
-if(m==="USB")m=A.Q(p,q,93,46)
-else if(m==="LAN")m=A.Q(o,q,93,46)
-else m=m==="TYPE-C"?A.Q(r,q,93,46):A.Q(n,s,93,46)
-m=A.K(m,93,46)}return m},
+$1(a){var s,r,q,p,o=null,n="Black",m="Golden Grey",l="Silver Grey",k="assets/images/lan-black.png",j="assets/images/external_1M.png",i=a.aS
+if(J.c(i.gh(0),"Wood")||J.c(i.gh(0),"Marble"))s=B.Q
+else{i=a.a0
+s=J.c(i.gh(0),n)||J.c(i.gh(0),"Sparkling Blue")||J.c(i.gh(0),m)?B.L:B.ax}i=this.a.c
+r=i==="TYPE-C"
+if(r){q=a.a0
+if(J.c(q.gh(0),n))p="assets/images/c_black.png"
+else if(J.c(q.gh(0),m))p="assets/images/c_gold.png"
+else p=J.c(q.gh(0),l)?"assets/images/c_silver.png":"assets/images/c_white.png"}else if(i==="USB"){q=a.a0
+if(J.c(q.gh(0),n))p="assets/images/usb_black.png"
+else if(J.c(q.gh(0),m))p="assets/images/usb_gold.png"
+else p=J.c(q.gh(0),l)?"assets/images/usb_silver.png":"assets/images/usb_white.png"}else p=""
+if(a.pA()){if(i==="USB"){i=a.bf()?A.co(3.141592653589793):A.co(0)
+i=A.cp(B.N,A.Q(p,o,93,46),o,i,!0)}else if(i==="LAN"){i=a.bf()?A.co(3.141592653589793):A.co(0)
+i=A.cp(B.N,A.Q(k,o,93,46),o,i,!0)}else i=r?A.Q(p,o,93,46):A.Q(j,s,93,46)
+i=new A.aQ(1,A.K(i,93,46),o)}else{if(i==="USB")i=A.Q(p,o,93,46)
+else if(i==="LAN")i=A.Q(k,o,93,46)
+else i=r?A.Q(p,o,93,46):A.Q(j,s,93,46)
+i=A.K(i,93,46)}return i},
 $S:80}
 A.k_.prototype={
 N(a){return A.cq(new A.als(this,a),t.Y)}}
